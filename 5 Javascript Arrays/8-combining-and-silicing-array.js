@@ -1,27 +1,15 @@
-let numbers = [1, 2, 3, 4, 5];
+// Let's say we have two arrays and we want to combine it into one array.
+const exampleNumbersA = [1, 2, 3];
+const exampleNumbersB = [4, 5, 6];
 
-// If you want to clear all the elements of an array,
-// there are different ways that you can do that.
+// Can combine these arrays using the concat method.
+const combinedArray = exampleNumbersA.concat(exampleNumbersB);
+console.log('combinedArray', combinedArray);
 
-// If the numbers array was large, then this would be inefficient.
-while (numbers.length > 0)
-    numbers.pop();
+// slice(startIndex, endIndex) where the endIndex is exclusive (not included)
+// The slice method will not affect the original array.
+const firstSlice = combinedArray.slice(0, 4);
+console.log('firstSlice', firstSlice);
 
-// could set the length property to 0
-
-numbers = [1, 2, 3, 4, 5];
-
-numbers.length = 0; // we could assign it to 0, clearing/emptying the array
-
-// could use the .splice() method 
-
-numbers = [1, 2, 3, 4, 5];
-
-const deletedNumbers = numbers.splice(0, numbers.length);
-console.log(`deletedNumbers: ${deletedNumbers}`);
-
-// could reassign the array to an empty array,
-// the previous array would be garbage collected
-
-numbers = [1, 2, 3, 4, 5];
-numbers = [];
+// If you doing this will primitive values, then the elements will be passed by copy.
+// However if you're dealing with objects, then the elements will be passed by reference.
