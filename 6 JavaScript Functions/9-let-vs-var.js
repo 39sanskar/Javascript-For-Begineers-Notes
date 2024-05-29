@@ -2,6 +2,7 @@
 // In JavaScript versions prior to ES6 (ECMAScript 2015), the var keyword was used to declare variables.
 
 // The var keyword is function-scoped. Meaning that it is available anywhere within a function.
+// The var keyword is function -scoped.Meaning that it is available anywhere within a function.
 function display() {
     for (var i = 0; i < 5; i++) {
         console.log(i);
