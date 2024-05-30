@@ -1,5 +1,6 @@
 // The var keyword is the previous keyword used to create a variable.
 // The var keyword is the previous keyword used to create a variable.
+// The var keyword is the previous keyword used to create a variable.
 // Declaring and assigning a variable on the same line is known as initialization;
 var previousNamingConvention = 'Your First Name';
 
