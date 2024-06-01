@@ -20,3 +20,4 @@ let multiply = function(num1, num2) {
 }
 
 multiply(2, 3);
+// 6 is the answer..
