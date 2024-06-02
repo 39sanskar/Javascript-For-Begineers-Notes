@@ -1,4 +1,5 @@
 // Programming is powerful as it enables us to execute different code based on conditions.
+// Programming is powerful as it enables us to execute different code based on conditions.
 // This is what enables us to provide dynamic and personalized
 // applications to end users.
 
