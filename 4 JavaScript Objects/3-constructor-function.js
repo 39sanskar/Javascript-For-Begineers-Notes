@@ -36,6 +36,7 @@ function Dog(name, breed, age, weightInPounds) {
 }
 
 // To call the constructor function, we use a special keyword, new.
+// To call the constructor function , we use a special keyword, new.
 // So we would say that we, instantiated a new Dog object in memory.
 // The new keyword, creates an empty JavaScript object.
 // It then sets the new keyword to reference this object in memory.
